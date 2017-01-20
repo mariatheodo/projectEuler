@@ -1,0 +1,16 @@
+button {
+    text-shadow: 0 1px 0 #fff;
+    border-color: #ccc;
+    height: 40px;
+    width: 120px;
+    border-radius: 6px;
+}
+
+button:focus, button:hover {
+    background-color: #e0e0e0;
+}
+
+button:active {
+    background-color: #e0e0e0;
+    border-color: #dbdbdb;
+}
