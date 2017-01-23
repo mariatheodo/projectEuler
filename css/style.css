@@ -4,6 +4,7 @@ button {
     height: 40px;
     width: 120px;
     border-radius: 6px;
+    float: left;
 }
 
 button:focus, button:hover {
@@ -13,4 +14,58 @@ button:focus, button:hover {
 button:active {
     background-color: #e0e0e0;
     border-color: #dbdbdb;
+}
+
+footer {
+    margin-bottom: 0;
+    margin-top: 50px;
+    text-align: right;
+    background-color: #e9e0d6;
+    height: 100px;
+}
+
+#text {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    font-family: 'Ek Mukta', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #eb7260;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+#answer1, #answer2 {
+    padding-bottom: 10px;
+    padding: 5px 80px 5px 5px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#second {
+    margin-top: 35px;
+}
+
+.answer {
+    margin-top: 25px;
+    color: white;
+}
+
+footer > span {
+    font-weight: bold;
 }
